@@ -1,0 +1,714 @@
+﻿<html>
+<head>
+<title>Συντήρηση</title>
+<link rel="icon" type="png" sizes="32x32" href="logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body  {
+    background-image: url("Συντήρηση/backrr.jpg");
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+} 
+
+.logo{
+	float: left;
+}
+.titlos{
+	float: right;
+	}
+p {
+	float: left;
+	width: 150px;
+	height: 15px;
+	}
+	
+	
+	
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 165px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+a{color:white;}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.box1{ 
+	background-color: #lime;
+    color: black;
+    padding: 55px;
+    font-size: 30px;
+    font-familly: cursive;
+    border: none;
+    cursor: pointer;
+	border-radius: 30px;
+	transition: 1s;
+}
+.box1:hover {
+	transform: scale(1.2);
+	color: lime;
+	background: url("Συντήρηση/diatrofi.png");
+	margin:0;
+	background-size: cover;
+	animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+.box2{ 
+	background-color: #lime;
+    color: black;
+    padding: 55px;
+    font-size: 30px;
+    font-familly: cursive;
+    border: none;
+    cursor: pointer;
+	border-radius: 30px;
+	transition: 1s;
+}
+.box2:hover {
+	transform: scale(1.2);
+	color: lime;
+	background: url("Συντήρηση/kako.png");
+	margin:0;
+	background-size: cover;
+	animation: shake 0.9s;
+    animation-iteration-count: infinite;}
+
+.box3{ 
+	background-color: #lime;
+    color: black;
+    padding: 55px;
+    font-size: 30px;
+    font-familly: cursive;
+    border: none;
+    cursor: pointer;
+	border-radius: 30px;
+	transition: 1s;
+}
+.box3:hover {
+	transform: scale(1.2);
+	color: lime;
+	background: url("Συντήρηση/ddd.png");
+	margin:0;
+	background-size: cover;
+	animation: shake 0.9s;
+    animation-iteration-count: infinite;
+	}
+	
+	/* sirsimo */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #79d279;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* telos sirsimo */
+
+
+/* sirsimo */
+.sidenav1 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
+
+.sidenav1 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav1 a:hover {
+    color: #79d279;
+}
+
+.sidenav1 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* telos sirsimo */
+
+/* sirsimo */
+.sidenav2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
+
+.sidenav2 a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav2 a:hover {
+    color: #79d279;
+}
+
+.sidenav2 .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+	
+	
+	
+	
+	
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+footer{
+	padding: 35px 35px 5px 35px;
+	background-color: #999999;
+	}
+h1{
+	color: white;
+}	
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 0px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+	box-shadow:0 4px 9px rgba(0,0,0,.37);
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+	box-shadow:0 4px 9px rgba(0,0,0,.37);
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  box-shadow:0 4px 9px rgba(0,0,0,.37);
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  box-shadow:0 4px 9px rgba(0,0,0,.37);
+  background: #125688;
+  color: white;
+}
+
+.table1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	color:black;
+	}
+.list {
+	
+	}
+.list :hover{
+    color: #4CAF50;
+  } 
+
+li{
+   font-decoration: none;
+   margin: 5px 0;
+   font-size: 17px;
+}
+li a {
+    color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.titloi{  
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   font-size: 20px;
+  }  
+  
+.mitros {
+  background:#f4f4f4;
+  background:rgba(244,244,244,.79);
+  border: 1px solid #d3d3d3;
+  padding: 2px 3px;
+  width:339px;
+  box-shadow:0 4px 9px rgba(0,0,0,.37);
+  border-radius: 10px;
+}
+
+.mitros input {
+	background:#fefefe;
+	border: none;
+	font:12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	padding: 5px;
+	width: 216px;
+	box-shadow: 0 0 4px rgba(0,0,0,.4) inset, 1px 1px 1px rgba(255,255,255,.75);
+    border-radius: 9px;
+}
+.mitros input:focus {
+	outline: none;
+	box-shadow:0 0 4px #0d76be inset;
+	}
+.mitros input::-webkit-input-placeholder {
+  	font-style: italic;
+  	line-height: 15px
+	}
+
+.mitros input:-moz-placeholder {
+	font-style: italic;
+  	line-height: 15px
+	}
+
+.mitros button {
+	background-color: #4CAF50;
+	background: #4CAF50;
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	font: 13px/13px "Comic Sans MS", cursive, sans-serif;
+	padding: 10px;
+	width:106px;
+	box-shadow: 0 0 2px #2692dd inset;
+    border-radius: 9px;
+}
+.mitros button:hover {
+	opacity:.9;
+	} 
+	
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#4D9C41),
+									   to(#19911D),
+									   color-stop(.6,#54DE5D))
+}
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: transparent;
+}
+	
+	
+	
+
+	
+*{cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat979.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat979.gif), auto !important;}
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <a href="Ράτσες.html"><button class="dropbtn" >Ράτσες</button></a>
+  <div class="dropdown-content">
+    <a href="Μεγάλα.html">Μεγάλου Μεγέθους</a>
+    <a href="Μεσαία.html">Μεσαιου Μεγέθους</a>
+    <a href="Mικρά.html">Μικρού Μεγέθους</a>
+</div>
+</div>
+
+<div class="dropdown">
+  <a href="Συντήρηση.html"><button class="dropbtn">Συντήρηση</button></a>
+  <div class="dropdown-content">
+  
+</div>
+</div>
+<div class="dropdown">
+  <a href="Αισθήσεις.html"><button class="dropbtn">Αισθήσεις</button></a>
+  <div class="dropdown-content">
+
+</div>
+</div>
+<div class="dropdown">
+  <a href="Ασθένειες.html"><button class="dropbtn">Ασθένειες</button></a>
+  <div class="dropdown-content">
+</div>
+</div>
+<div class="dropdown">
+  <a href="Επικοινωνία.html"><button class="dropbtn">Επικοινωνία</button></a>
+  <div class="dropdown-content">
+</div>
+</div>
+
+<div class="logo">
+<a href="menu.html"><img src="spitaki.png" width="60" height="60"></a>
+</div>
+<img class="titlos" src="titlos.png" width="400">
+<font color="lime"><center><h1>Συντήρηση</h1></font>
+<table border="0">
+	<tr>
+		<td>
+			<span onclick="openNav()"><button class="box1">Διατροφή</button></span>
+		</td>
+		</table>
+<table border="0">
+	<tr>
+		<td>
+			<span onclick="openNav1()"><button class="box2">Βλαβερές Τροφές</button></span>
+		</td>
+		</table>
+		<table border="0">
+	<tr>
+		<td>
+			<span onclick="openNav2()"><button class="box3">Συμβίωση</button></span>
+		</td>
+		</table>
+		</center>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		
+		  <footer>
+<center><table class="table1" border="0">
+	<tr>
+    <td rowspan="2">
+      <img src="dog.gif" width="80px" height="100px">
+    </td>  
+		<td class="titloi">
+        Σχετικά με εμάς
+    </td>
+    <td class="titloi">
+        Υποστήριξη
+    </td>
+    <td rowspan="2"> 
+      	<div>
+				<form class="mitros" name="myForm" action="Menu.html"	onsubmit="kapa()" method="post">
+						<center>Εγγραφήτε στο Newsletter μας:</center><input type="email" placeholder="example@example.com" name="fname">
+          <button type="submit">Εγγραφή!</button>
+				</form>
+			</div>
+    </td>
+    <td class="titloi">
+        Τα μέσα μας
+    </td>  
+  </tr>
+  <tr>
+    <td>
+			<ul class="list" style="list-style-type:circle" style="text-decoration: none;">
+             <li><a href="#">Για εμάς</a></li>
+				<li><a href="#">Ενημέρωση</a></li>
+				<li><a href="#">Επικοινωνία</a></li>
+				<li><a href="#">Για επιχειρήσεις</a></li>
+			</ul>
+    </td>
+    <td>
+			<ul class="list" style="list-style-type:circle">
+				<li><a href="#">Βοήθεια</a></li>
+				<li><a href="#">FAQs</a></li>
+				<li><a href="#">Όροι Χρήσης</a></li>
+				<li><a href="#">Sitemap</a></li>
+			</ul>
+		</td>	
+		
+		<td align="center">
+				<a href="#" class="fa fa-facebook"></a><br>
+				<a href="#" class="fa fa-twitter"></a><br>
+				<a href="#" class="fa fa-google"></a><br>
+				<a href="#" class="fa fa-instagram"></a><br>
+		</td>
+	</tr>	
+
+  </table></center>
+    <font color="white">&copy; <sub>Δημιουργοι στης σελιδας : Θωμάς Μήτρος / Δημήτρης Σιγάλας / Αλέξανδρος Ρακίπι</font></sub>
+</footer>
+ 	<center><div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<center><h1><font color="white">Aγίου Βερνάρδου</font></h1></center>
+  <img src="Αγιουυ Βερναρδου/Aγιου Βερναρδου1.png">
+<br><br><table class = "table" border="2" bordercolor="#79d279" align="right" width=20%</br></br>
+	<tr>
+    	<td colspan="2">
+        	<center><img src="Αγιουυ Βερναρδου/Aγιου Βερναρδου2.png" width="450px" height="260px"></center>
+	   <tr>
+    <th><font color="white">Pάτσα</font></th>
+    <th><font color="white">Αγίου Βερνάρδου</font></th>
+  </tr>
+  <tr>
+    <td><font color="white">Υψος</td>
+    <td><font color="white">Αρσενικό 70-90 εκ. Θυληκό 65-80εκ.</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Βάρος</font></td>
+    <td><font color="white">65-120kg</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Μεσος Ορος Ζωής</font></td>
+    <td><font color="white">9 Ετη</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Xαρακτήρας</font></td>
+    <td><font color="white">Φιλικό,Ήρεμο,Ήμερο</font></td>
+  </tr>		
+</table> 
+<div class="a">   
+ <font color="white">Πληροφορίες</font>
+ </div>
+ <div class="b">
+ <font color="white"><br> Το τρίχωμα του ποικίλει και μπορεί να έιναι μακρύ με ελαφρύ κυματισμό ή κοντό και σκληρό και στην ουρά να είναι πιο μακρύ. Κατά βάση, περισσότερο μαλλί υπάρχει στην περιοχή του κεφαλιού, των ποδιών και της ουράς. Τα μάτια του είναι σκούρα και όχι ιδιαίτερα μεγάλα και παρομοίως τα αυτιά του, που είναι μεσαίου μεγέθους και κρεμαστά. Το κύριο χρώμα του είναι άσπρο με κηλίδες σε γήινα χρώματα όπως καφέ, μαύρο, κανελί, αλλά εμφανίζεται και σε καφέ με ρίγες σε πιο σκούρες αποχρώσεις.Ιδιαίτερα έξυπνος, πιστός στην οικογένεια του και φιλικός. Ανήκει στην κατηγορία των σκύλων που αγαπά να περνάει χρόνο με τα παιδιά και να παίζει μαζί τους, ενώ θεωρείται υπομονετικό σκυλί και ανεκτικό. Ωστόσο το μεγάλο του βάρος μπορεί να προκαλέσει προβλήματα και για αυτόν τον λόγο κρίνεται απαραίτητη η σωστή εκπαίδευση από τον ιδιοκτήτη και η κοινωνικοποίηση του από πολύ μικρή ηλικία. Λόγω του όγκου του, επίσης δεν μπορεί να διαμείνει σε διαμέρισμα, καθώς χρειάζεται χώρο για να τρέχει και να εξασκείται. Είναι εξαιρετικός φύλακας και ειδοποιεί με το γάβγισμα του για πιθανόν εισβολές ξένων στο σπίτι.Είναι μια στοργική φυλή που αγαπάει τους ανθρώπους. Ο μόνος κίνδυνος για τα μικρά παιδιά από αυτά τα σκυλιά είναι ο όγκος τους, κινδυνεύουν χωρίς το σκυλί να το θέλει, να τα ρίξει κάτω, στη διάρκεια του παιχνιδιού. Κατά τα άλλα είναι απόλυτα αξιόπιστα. 
+</font></br>
+<div class="c">
+<font color="white"><br>Πιθανόν να παρουσιάσει καρδιακά προβλήματα, δερματικά και ανωμαλίες στις βλεφαρίδες του, παθήσεις γνωστές ως εντρόπιον και εξτρόπιον κατά τις οποίες οι βλεφαρίδες γυρίζουν προς τα μέσα και έξω αντίστοιχα. Δυσπλασία του ισχίου και του αγκώνα είναι επίσης συνηθισμένες παθήσεις. Όπως όλες οι μεγαλόσωμες ράτσες, το Αγίου Βερνάρδου, έχει τον κίνδυνο της στροφής στομάχου (bloat). Η πρόληψη είναι η καλύτερη θεραπεία μια και μικρά, συχνά γεύματα συντελούν στην αποφυγή της εμφάνισης της επικίνδυνης αυτής πάθησης. Επιρρεπής σε κρίσεις επιληψίας, έκζεμα και οστεοσάρκωμα, το οποίο πρόσφατα αποδείχτηκε ότι αποτελεί κληρονομική πάθηση στη ράτσα αυτή.Ο σκύλος του Αγίου Βερνάρδου είναι εύκολο να εκπαιδευτεί αφού είναι πολύ έξυπνο και έχει την επιθυμία να ευχαριστεί. Όπως σε όλες τις μεγαλόσωμες ράτσες, είναι σημαντικό η εκπαίδευση να αρχίσει από πολύ νωρίς, καθώς το τεράστιο μέγεθός του θα αποτελέσει μεγάλο πρόβλημα αν ο σκύλος είναι απείθαρχος και ανυπάκουος. Θα πρέπει να είσαστε συνεπής και αυστηροί με τους κανόνες που έχετε θέσει και να παραμένετε πάντοτε το αφεντικό. Η κοινωνικοποίηση με ανθρώπους, παιδιά και άλλα κατοικίδια είναι καίριας σημασίας και πρέπει επίσης να αρχίσει από πολύ νωρίς.</br></font>
+ </div>
+</div>
+<div id="mySidenav1" class="sidenav1">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+<center><h1><font color="white">Aκίτα</font></h1></center>
+  <img src="Ακιτα/Ακιτα1.png">
+<br><br><table class = "table" border="2" bordercolor="#79d279" align="right" width=20%</br></br>
+	<tr>
+    	<td colspan="2">
+        	<center><img src="Ακιτα/Ακιτα2.png" width="450px" height="260px"></center>
+	   <tr>
+    <th><font color="white">Pάτσα</font></th>
+    <th><font color="white">Ακίτα</font></th>
+  </tr>
+  <tr>
+    <td><font color="white">Υψος</td>
+    <td><font color="white">Αρσενικό 64-70 εκ. Θυληκό 58-65εκ.</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Βάρος</font></td>
+    <td><font color="white">36-68kg</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Μεσος Ορος Ζωής</font></td>
+    <td><font color="white">13 Ετη</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Xαρακτήρας</font></td>
+    <td><font color="white">Έμπιστο,Θαραλέο,Έξυπνο,Φιλικό</font></td>
+  </tr>		
+</table> 
+<div class="d">   
+ <font color="white">Πληροφορίες</font>
+ </div>
+ <div class="e">
+ <font color="white"><br>Τα ακίτα είναι μεγαλόσωμη ράτσα σκύλου η οποία κατάγεται από τις ορεινές περιοχές της βόρειας Ιαπωνίας.είναι δυναμική, ανεξάρτητη και κυρίαρχη ράτσα.  Ως φυλή, τα ακίτα είναι γενικά ανθεκτικά, αλλά είναι γνωστό ότι πάσχουν από διάφορες γενετικές ασθένειες και είναι ευαίσθητα σε ορισμένα φάρμακα.Ιδιαίτερα επιφυλακτικό και κάπως επιθετικό με τους αγνώστους, το Ακίτα πρέπει να συνηθίσει στους ανθρώπους σε μικρή ηλικία, έτσι ώστε τα ένστικτα του φύλακα που διαθέτει να παραμείνουν ελεγχόμενα. Το Ακίτα μπορεί να είναι επιθετικά με άλλα σκυλιά του ίδιου φύλου, έτσι δύο αρσενικά ή δύο θηλυκά δεν πρέπει ποτέ να μείνουν μόνα μαζί. Το πρόβλημα είναι ότι αυτή η φυλή μπορεί να είναι δύσκολο να «διαβαστεί». Συχνά ενώ δεν εμφανίζει σημάδια επιθετικότητας και μπορεί να συνυπάρχει ειρηνικά με ένα άλλο σκυλί, μπορεί ξαφνικά από μια μικρή «διαφωνία», όπως διεκδίκηση φαγητού ή παιχνιδιού, να επιτεθεί με πρωτόγνωρη αγριότητα.
+</font></br>
+<div class="f">
+<font color="white"><br>Αν έχετε μία μεγάλη αυλή με φράχτη, είναι το ιδανικό μέρος για να ζει και να ασκείτε το σκυλί σας. Τα Ακίτα μπορούν να ασκούνται και χωρίς εσάς. Τους αρέσει να πηδάνε, να τρέχουν και να παίζουν όταν θέλουν. Στα κουτάβια πρέπει να δίνετε χρόνο να ξεκουράζονται και προσοχή πρέπει να δοθεί στα κουτάβια κάτω των 18 μηνών καθώς θα προσπαθούν να τραβήξουν μεγάλα αντικείμενα. Υπάρχει κίνδυνος να μην μπορέσουν να δομηθούν σωστά τα οστά τους. Λόγω της σωματικής κατασκευής τους είναι ιδανικά για πεζοπορίες ακόμα και σε ανώμαλα εδάφη. Είναι φανταστικοί κολυμβητές, αν και δεν πρέπει να κολυμπούν όταν έχει πολύ κρύο γιατί το τρίχωμά τους δεν στεγνώνει τελείως.Τα Ακίτα χρειάζονται ένα έμπειρο ιδιοκτήτη. Είναι κυριαρχικά και πρέπει να θέσετε τους κανόνες από την αρχή, δηλαδή ότι εσείς είστε το αφεντικό. Δεν πρέπει να δείξετε σημάδια αδυναμίας, γιατί είναι πολύ έξυπνα σκυλιά και θα το εκμεταλλευτούν. Όταν είναι κουτάβι μπορεί να μάθει κάποιες μικρές εντολές συμπεριφοράς. Η εκπαίδευση πρέπει να αρχίσει από 4-6 μηνών. Κατά την εκπαίδευση πρέπει να βρίσκεστε σε προστατευμένο μέρος, έτσι ώστε ο Ακίτα σας να μην φεύγει και αποσπάται. Το Ακίτα μπορεί να τα πάει καλά με παιδιά μετά από σωστή εκπαίδευση από κουτάβι.</br></font>
+ </div>
+</div>
+<div id="mySidenav2" class="sidenav2">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+<center><h1><font color="white">Aγγλικό Μαστίφ</font></h1></center>
+  <img src="Αγγλικο Μαστιφ/Αγγλικο μαστιφ1.png">
+<br><br><table class = "table" border="2" bordercolor="#79d279" align="right" width=20%</br></br>
+	<tr>
+    	<td colspan="2">
+        	<center><img src="Αγγλικο Μαστιφ/Αγγλικο Μαστιφ2.png" width="450px" height="260px"></center>
+	   <tr>
+    <th><font color="white">Pάτσα</font></th>
+    <th><font color="white">Αγγλικό Μαστίφ</font></th>
+  </tr>
+  <tr>
+    <td><font color="white">Υψος</td>
+    <td><font color="white">Θηλυκό: 70-91 εκ. Αρσενικό: 70-91 εκ.</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Βάρος</font></td>
+    <td><font color="white">Θηλυκό: 54-77 kg Αρσενικό: 73-100 kg</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Μεσος Ορος Ζωής</font></td>
+    <td><font color="white">11 Ετη</font></td>
+  </tr>
+  <tr>
+    <td><font color="white">Xαρακτήρας</font></td>
+    <td><font color="white">Καλόκαρδο,Ηρεμο,Στοργικό,Θαραλέο</font></td>
+  </tr>		
+</table> 
+<div class="a">   
+ <font color="white">Πληροφορίες</font>
+ </div>ο
+ <div class="b">
+<font color="white"><br>Το Μαστίφ είναι ένα σπάνιο σκυλί που σήμερα το συναντάμε περισσότερο στην Αμερική και λιγότερο στην Μεγάλη Βρετανία. Είναι ένας καλόκαρδος γίγαντας που δεν χρειάζεται πολλή τροφή σε σχέση με τον όγκο του, αλλά χρειάζεται χώρο για να τρέξει και αρκετή άσκηση, γιατί παρουσιάζει τάσεις παχυσαρκίας αν αφεθεί. Λαίμαργος σκύλος, αλλά πολύ χαριτωμένος και πολύ υπομονετικός, που όταν σε κοιτάει με αυτά τα μεγάλα μάτια, σε λυγίζει αμέσως. Απολαμβάνει το κάθε χάδι και την κάθε καλή λέξη που θα του πείτε. Με λίγα λόγια: ένας αξιαγάπητος σκύλος, παρά τον όγκο του.
+ Το τρίχωμα του Μαστίφ θέλει λίγη μόνο φροντίδα. Οι νεκρές και χαλαρές τρίχες θα πρέπει να αφαιρούνται με μια βούρτσα από καουτσούκ όταν το Μαστίφ μαδάει. Όπως και με τα άλλα μεγάλα σκυλιά, τα Μαστίφ χρειάζονται ένα μαλακό μέρος για να ξαπλώνουν για να αποφεύγονται σημάδια από την πίεση. Το Μαστίφ έχει διάρκεια ζωής 9-11 χρόνια και τα συνήθη προβλήματα υγείας περιλαμβάνουν την δυσπλασία του ισχίου και του αγκώνα (που μπορεί να το κάνει να κουτσαίνει ή να έχει αρθρίτιδα) και το φούσκωμα, το οποίο μπορεί να αποφευχθεί με την τοποθέτηση του πιάτου του σκύλου σε μια υπερυψωμένη επιφάνεια, κατανομή των γευμάτων μέσα στην ημέρα και με την αποφυγή της άσκησης αμέσως μετά τα γεύματα.</font></br>
+<div class="c">
+<font color="white"><br>Με ένα τεράστιο κεφάλι και ένα τεράστιο σαγόνι γεμάτο δόντια που προκαλούν φόβο, το τεράστιο αυτό σκυλί δέχεται να γίνει αλογάκι για ένα παιδί χωρίς καμία διαμαρτυρία. Συνήθως η γούνα του είναι κανελλί ή μπεζ χρώματος, αλλά η μουσούδα του είναι πάντα μαύρη.
+Πρόκειται για έναν μυώδη σκύλο με πολύ δυνατά μπροστινά πόδια και μια καρδιά που χτυπάει για εσάς, που θα τον βάλετε σπίτι σας και θα τον φροντίσετε.
+Το διαμέρισμα δεν είναι το κατάλληλο μέρος για να φιλοξενήσει ένα Αγγλικό Μαστίφ, μια που χρειάζεται αρκετό χώρο. Παρολ'αυτά, είναι ένα ήσυχο σκυλί που θα γαυγίσει μόνο όταν νιώσει ότι κάποιος απειλεί την οικογένειά του.</br></font>
+ </div>
+</div>
+	<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("main").style.marginLeft = "100%";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+<script>
+function openNav1() {
+    document.getElementById("mySidenav1").style.width = "100%";
+    document.getElementById("main").style.marginLeft = "100%";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav1() {
+    document.getElementById("mySidenav1").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+<script>
+function openNav2() {
+    document.getElementById("mySidenav2").style.width = "100%";
+    document.getElementById("main").style.marginLeft = "100%";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav2() {
+    document.getElementById("mySidenav2").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+	
+</body>
+</html>
+	
